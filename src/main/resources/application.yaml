@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto : update
+
+  datasource:
+    url : jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example
+    username : mahesh1101
+    password : parth1101$
+
+
